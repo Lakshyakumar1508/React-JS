@@ -1,0 +1,53 @@
+.card-container {
+  display: flex;            /* arrange cards in a row */
+  flex-wrap: wrap;          /* allow cards to wrap on small screens */
+  justify-content: center;  /* center the cards horizontally */
+  gap: 20px;                /* space between cards */
+  margin-top: 20px;
+}
+
+.card {
+  background-color: rgb(181, 167, 195);
+  width: 300px;
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+
+  /* Optional: smooth shadow and hover effect */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.card img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card p {
+  margin: 20px 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: white;
+  color: rgb(179, 139, 139);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #e6e6e6;
+}
+
+
+#username {
+  color: blanchedalmond;
+}
