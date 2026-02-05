@@ -8,7 +8,8 @@ const RightContent = ({ users = [] }) => {
          key={index}
         img={elem.img}
         tag={elem.tag}
-        index={index + 1}/>
+        index={index + 1}
+        color={elem.color}/>
       ))}
     </div>
   )

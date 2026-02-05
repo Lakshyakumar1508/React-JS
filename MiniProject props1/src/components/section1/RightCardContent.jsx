@@ -1,4 +1,4 @@
-const RightCardContent = ({tag, index}) => {
+const RightCardContent = ({tag, index,color}) => {
     return (
         <div className="absolute inset-0 p-7  flex   flex-col justify-between bg-black/30">
 
@@ -13,10 +13,10 @@ const RightCardContent = ({tag, index}) => {
             </p>
 
             <div className="flex justify-between">
-                <button className="bg-blue-500 px-5 py-2 font-semibold text-white rounded-full">
+                <button className={`${color} px-5 py-2 font-semibold text-white rounded-full`}>
                     {tag}
                 </button>
-                <button className="bg-blue-500 px-5 py-2 font-semibold text-white rounded-full">
+                <button className={`${color} px-5 py-2 font-semibold text-white rounded-full`}>
                     ---
                 </button>
             </div>

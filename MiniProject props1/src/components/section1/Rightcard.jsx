@@ -1,6 +1,6 @@
 import RightCardContent from "./RightCardContent"
 
-const Rightcard = ({ img ,tag, index}) => {
+const Rightcard = ({ img ,tag, index,color}) => {
   return (
     <div className="relative h-150 w-80 rounded-3xl overflow-hidden flex shrink-0">
       
@@ -12,7 +12,7 @@ const Rightcard = ({ img ,tag, index}) => {
       />
 
 
-      <RightCardContent tag={tag} index={index}/>
+      <RightCardContent tag={tag} index={index} color={color}/>
     </div>
   )
 }
