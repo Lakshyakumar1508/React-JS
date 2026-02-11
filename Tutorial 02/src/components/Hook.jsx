@@ -6,17 +6,22 @@
 // useMemo:     Optimization
 // useCallback: Optimization
 
+import React,{useState} from 'react'
 const Hook = () => {
-    const a=20;
+    
+    // let a=10;
+    const [a, seta] = useState(20);
+
     return (
         <>
         {/* useState */}
         <div>
         <h1> Value of a is {a}</h1>
-        <button>Click</button>
+        <button >Click</button>
         </div>
         </>
     )
 }
 
 export default Hook
+
