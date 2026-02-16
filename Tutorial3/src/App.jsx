@@ -1,6 +1,7 @@
 import React from 'react'
 import Storage from './component/Storage'
 import APIcalls from './component/APIcalls'
+import USEEFFECT from './component/USEEFFECT'
 
 const App = () => {
 
@@ -8,8 +9,9 @@ const App = () => {
 
     <div>
       APP
-      <Storage/>
-      <APIcalls/>
+      {/* <Storage/>
+      <APIcalls/> */}
+      <USEEFFECT/>
     </div>
   )
 }

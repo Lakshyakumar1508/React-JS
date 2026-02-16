@@ -39,7 +39,7 @@ const APIcalls = () => {
 
   return (
     <div>
-    <button onClick={getData}>Get Data </button>
+    <button onClick={getData}>Get Data </button>U
     <div>
         {data.map(function(elem,idx){
             return <h3>Hello, {elem.title}{idx}</h3>
